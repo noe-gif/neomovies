@@ -4,7 +4,7 @@
 <img src="https://cdn.discordapp.com/attachments/774360587391860769/1169793859430125709/fzfezfezfezfezdze.png?ex=6556b26d&is=65443d6d&hm=d50ecaf74138878c735e9031fc4aca520c1c02965bac6fa47d2ec2015281602d&" alt="banner"></img>
 </p>
 
-Demo (loading, wait a few seconds) :
+## Demo (loading, wait a few seconds) :
 
 <p align="center">
 <img src="NeoMovie/demo/demo.gif" alt="androiddevnotes logo"></img>
