@@ -15,7 +15,7 @@ Follow these instructions to build and run the project OR you can use the Docker
 Demo (loading, wait a few seconds) :
 
 <p align="center">
-<img src="demo/demo.gif" alt="androiddevnotes logo"></img>
+<img src="NeoMovie/demo/demo.gif" alt="androiddevnotes logo"></img>
 </p>
 
 ## Env
