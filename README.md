@@ -5,14 +5,13 @@
 </p>
 
 ## Demo 
-(loading, wait a few seconds) :
 
 <p align="center">
-<img src="NeoMovie/demo/demo.gif" alt="androiddevnotes logo"></img>
+   (loading, wait a few seconds) :
 </p>
 
 <p align="center">
-   code base for the NeoMovie web app project
+<img src="NeoMovie/demo/demo.gif" alt="androiddevnotes logo"></img>
 </p>
 
 ## Doc
