@@ -111,7 +111,7 @@ seiki-web-app/
 
 ## License
 
-**neomovie** Copyright ©2023 - neomovie / Noé Campo
+**neomovie** Copyright ©2023 - neomovie / Noé Campo.
 
 **neomovie** software under
 the [GPL v3](https://opensource.org/licenses/gpl-3.0.html)
