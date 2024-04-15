@@ -70,7 +70,7 @@ function CarouselItem({ item }: { item: CarouselItemProps }) {
 
   return (
     <Box sx={{ position: 'relative', zIndex: 0 }}>
-      <Image alt={title} src={coverUrl} ratio="1/1" />
+      <Image alt={title} src={coverUrl || ''} ratio="1/1" />
 
       <StyledContentItem>
         <Typography variant="h6" sx={{ color: 'common.white' }}>

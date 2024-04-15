@@ -80,9 +80,9 @@ function CarouselItem({ item, active }: CarouselItemProps) {
         }}
         src={
           logo && logo.logos
-            ? `https://image.tmdb.org/t/p/w500/${
-                logo.logos.find((item: any) => item.iso_639_1 === 'en').file_path
-              }`
+            ? `https://image.tmdb.org/t/p/w500/${logo.logos.find(
+                (item: any) => item.iso_639_1 === 'en'
+              )?.file_path}`
             : ''
         }
       />
@@ -92,7 +92,7 @@ function CarouselItem({ item, active }: CarouselItemProps) {
         alt={id.toString()}
         src={
           logo && logo.backdrops
-            ? `https://image.tmdb.org/t/p/w500/${logo.backdrops[0].file_path}`
+            ? `https://image.tmdb.org/t/p/w500/${logo.backdrops[0]?.file_path}`
             : ''
         }
         ratio="16/9"

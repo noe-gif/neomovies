@@ -69,9 +69,11 @@ const TrailerBanner = ({ logo, favouriteRef }: any) => {
         }}
       >
         <Image
-          alt={logo.logos.find((item: any) => item.iso_639_1 === 'en').iso_639_1}
+          alt={logo.logos.find((item: any) => item.iso_639_1 === 'en')?.iso_639_1}
           src={`https://image.tmdb.org/t/p/w500/${
-            logo.logos.find((item: any) => item.iso_639_1 === 'en').file_path
+            logo.logos.find((item: any) => item.iso_639_1 === 'en')?.file_path
+              ? logo.logos.find((item: any) => item.iso_639_1 === 'en')?.file_path
+              : ''
           }`}
           sx={imageStyles}
         />

@@ -10,7 +10,7 @@ const PopularActors = ({ popularActorsData }: any) => {
       ? popularActorsData.results.map((actor: any, index: number) => ({
           id: actor.id,
           name: actor.name,
-          profilePic: actor.profile_path,
+          profilePic: actor?.profile_path || '',
           loading: false,
         }))
       : [...Array(4)].map((_, index) => ({

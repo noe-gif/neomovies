@@ -58,5 +58,5 @@ type CarouselItemProps = {
 function CarouselItem({ item }: { item: CarouselItemProps }) {
   const { coverUrl, title } = item;
 
-  return <Image alt={title} src={coverUrl} ratio="1/1" />;
+  return <Image alt={title} src={coverUrl || ''} ratio="1/1" />;
 }
